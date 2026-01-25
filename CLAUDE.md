@@ -1,5 +1,25 @@
 # Agent Monorepo - Claude Code Guidelines
 
+## Browser Testing & Automation
+
+**Primary:** Use `agent-browser` skill for web/browser testing and automation.
+
+```bash
+agent-browser open http://localhost:3000    # Navigate to page
+agent-browser snapshot -i                   # Get interactive elements with refs
+agent-browser click @e1                     # Click element by ref
+agent-browser console                       # Check console for errors
+agent-browser errors                        # Check page errors
+```
+
+**Fallback:** If agent-browser is unavailable or has issues, use Claude for Chrome MCP tools (`mcp__claude-in-chrome__*`).
+
+**Workflow:**
+1. Start with `agent-browser snapshot -i` to get element refs
+2. Use `agent-browser console` and `agent-browser errors` to debug issues
+3. After making code changes, reload with `agent-browser reload`
+4. For fresh state, close and reopen: `agent-browser close` then `agent-browser open <url>`
+
 ## Common Issues & Solutions
 
 ### React/Next.js Hydration Mismatch Errors
