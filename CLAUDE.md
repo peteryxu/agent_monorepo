@@ -19,10 +19,10 @@ git push origin px-mac                 # Push to remote
 # Create PR: px-mac -> main
 gh pr create --base main --head px-mac
 
-# After PR merged, sync px-mac with main
+# After PR merged (squash), sync px-mac with main
 git checkout px-mac
-git pull origin main                   # or: git rebase origin/main
-git push origin px-mac
+git pull origin main --rebase          # Rebase to avoid divergent branches
+git push origin px-mac --force-with-lease
 ```
 
 ## Browser Testing & Automation
