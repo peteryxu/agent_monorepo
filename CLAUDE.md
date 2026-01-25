@@ -1,5 +1,30 @@
 # Agent Monorepo - Claude Code Guidelines
 
+## Git Workflow
+
+**Default dev branch (Mac):** `px-mac`
+
+- All changes should be committed to `px-mac` branch
+- `main` branch is protected - requires PR to merge
+- After merging PR to main, **keep `px-mac` open** - do not delete it
+- Rebase or merge main back into `px-mac` after PR merge to stay current
+
+```bash
+# Typical workflow
+git checkout px-mac                    # Work on dev branch
+# ... make changes ...
+git add . && git commit -m "..."       # Commit to px-mac
+git push origin px-mac                 # Push to remote
+
+# Create PR: px-mac -> main
+gh pr create --base main --head px-mac
+
+# After PR merged, sync px-mac with main
+git checkout px-mac
+git pull origin main                   # or: git rebase origin/main
+git push origin px-mac
+```
+
 ## Browser Testing & Automation
 
 **Primary:** Use `agent-browser` skill for web/browser testing and automation.
