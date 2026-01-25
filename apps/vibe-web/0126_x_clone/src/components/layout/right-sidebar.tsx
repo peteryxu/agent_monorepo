@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Search } from "lucide-react"
 import { Input } from "@/components/ui/input"
@@ -13,6 +13,12 @@ import { toast } from "sonner"
 
 export function RightSidebar() {
   const [followedUsers, setFollowedUsers] = useState<Set<string>>(new Set())
+  const [mounted, setMounted] = useState(false)
+
+  // Prevent hydration mismatch from randomized mock data
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   const handleFollow = (userId: string, name: string) => {
     setFollowedUsers((prev) => {
@@ -68,7 +74,8 @@ export function RightSidebar() {
         </CardContent>
       </Card>
 
-      {/* Who to follow */}
+      {/* Who to follow - only render on client to avoid hydration mismatch */}
+      {mounted && (
       <Card className="bg-muted/50 border-0">
         <CardHeader className="pb-2">
           <CardTitle className="text-xl">Who to follow</CardTitle>
@@ -130,6 +137,7 @@ export function RightSidebar() {
           </Link>
         </CardContent>
       </Card>
+      )}
 
       {/* Footer links */}
       <div className="px-4 text-xs text-muted-foreground space-x-2">

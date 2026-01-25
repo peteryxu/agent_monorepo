@@ -290,8 +290,8 @@ export const conversations = createConversations(currentUser, users)
 // Trending topics
 export const trendingTopics = createTrendingTopics()
 
-// "Who to follow" suggestions
+// "Who to follow" suggestions (deterministic - sort by follower count descending)
 export const suggestedUsers = users
   .filter((u) => !u.isFollowing)
-  .sort(() => Math.random() - 0.5)
+  .sort((a, b) => b.followers - a.followers)
   .slice(0, 5)
