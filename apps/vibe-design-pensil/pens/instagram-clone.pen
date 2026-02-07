@@ -1,0 +1,1111 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "diR8a",
+      "x": 0,
+      "y": 0,
+      "name": "Instagram Home",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#000000",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "7ksyy",
+          "name": "Status Bar",
+          "width": "fill_container",
+          "height": 54,
+          "padding": [
+            14,
+            20,
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Nd5Lk",
+              "name": "timeText",
+              "fill": "#FFFFFF",
+              "content": "5:11",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "8xw64",
+              "name": "statusIcons",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "U2EVM",
+                  "name": "signalIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "signal_cellular_alt",
+                  "iconFontFamily": "Material Symbols Rounded",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "5CLrv",
+                  "name": "wifiIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "wifi",
+                  "iconFontFamily": "Material Symbols Rounded",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "3XvxY",
+                  "name": "batteryIcon",
+                  "width": 22,
+                  "height": 18,
+                  "iconFontName": "battery_4_bar",
+                  "iconFontFamily": "Material Symbols Rounded",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nZxzE",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 44,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "OGh9Q",
+              "name": "plusIcon",
+              "width": 28,
+              "height": 28,
+              "iconFontName": "plus",
+              "iconFontFamily": "lucide",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "frame",
+              "id": "3Sh0K",
+              "name": "logoRow",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dKABU",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "Instagram",
+                  "fontFamily": "Satisfy",
+                  "fontSize": 28
+                },
+                {
+                  "type": "icon_font",
+                  "id": "ECqJQ",
+                  "name": "chevron",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "chevron-down",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vVEwM",
+              "name": "heartContainer",
+              "width": 28,
+              "height": 28,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "nszSx",
+                  "x": 0,
+                  "y": 0,
+                  "name": "heartIcon",
+                  "width": 28,
+                  "height": 28,
+                  "iconFontName": "heart",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "ellipse",
+                  "id": "zfytE",
+                  "x": 20,
+                  "y": 0,
+                  "name": "redDot",
+                  "fill": "#FF3040",
+                  "width": 8,
+                  "height": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C67Mf",
+          "name": "Stories Row",
+          "width": "fill_container",
+          "height": 110,
+          "gap": 14,
+          "padding": [
+            8,
+            12
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Zqs3X",
+              "name": "Your Story",
+              "width": 72,
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OMx4f",
+                  "name": "s1ring",
+                  "width": 68,
+                  "height": 68,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "FuL8K",
+                      "x": 0,
+                      "y": 0,
+                      "name": "s1outer",
+                      "width": 68,
+                      "height": 68,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#363636"
+                      }
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "Sv7F8",
+                      "x": 4,
+                      "y": 4,
+                      "name": "s1inner",
+                      "fill": "#333333",
+                      "width": 60,
+                      "height": 60
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KpQEo",
+                      "x": 46,
+                      "y": 46,
+                      "name": "s1plus",
+                      "width": 20,
+                      "height": 20,
+                      "fill": "#0095F6",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "#000000"
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "jGk3y",
+                          "name": "s1plusIcon",
+                          "width": 12,
+                          "height": 12,
+                          "iconFontName": "plus",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "B4ADR",
+                      "x": 16,
+                      "y": 14,
+                      "name": "personIcon",
+                      "width": 36,
+                      "height": 36,
+                      "iconFontName": "person",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "fill": "#666666"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "WXFcW",
+                  "name": "s1label",
+                  "fill": "#A8A8A8",
+                  "content": "Your story",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sylNS",
+              "name": "congresstheband",
+              "width": 72,
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "0KaNt",
+                  "name": "s2ring",
+                  "width": 68,
+                  "height": 68,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "9b71H",
+                      "x": 0,
+                      "y": 0,
+                      "name": "s2gradient",
+                      "width": 68,
+                      "height": 68,
+                      "stroke": {
+                        "thickness": 3,
+                        "fill": {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 225,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#FEDA75",
+                              "position": 0
+                            },
+                            {
+                              "color": "#FA7E1E",
+                              "position": 0.25
+                            },
+                            {
+                              "color": "#D62976",
+                              "position": 0.5
+                            },
+                            {
+                              "color": "#962FBF",
+                              "position": 0.75
+                            },
+                            {
+                              "color": "#4F5BD5",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "CRFGz",
+                      "x": 5,
+                      "y": 5,
+                      "name": "s2avatar",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "igrindphoto",
+                        "link": "https://unsplash.com/@igrindphoto",
+                        "author": "Evgeniy Smersh"
+                      },
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1683525791221-299c3cc99efa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MDI3NjJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "width": 58,
+                      "height": 58
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "aMT7W",
+                  "name": "s2label",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 72,
+                  "content": "congresstheband",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1Lz9o",
+              "name": "unc_basketball",
+              "width": 72,
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1cWs2",
+                  "name": "s3ring",
+                  "width": 68,
+                  "height": 68,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "LcFcI",
+                      "x": 0,
+                      "y": 0,
+                      "name": "s3gradient",
+                      "width": 68,
+                      "height": 68,
+                      "stroke": {
+                        "thickness": 3,
+                        "fill": {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 225,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#FEDA75",
+                              "position": 0
+                            },
+                            {
+                              "color": "#FA7E1E",
+                              "position": 0.25
+                            },
+                            {
+                              "color": "#D62976",
+                              "position": 0.5
+                            },
+                            {
+                              "color": "#962FBF",
+                              "position": 0.75
+                            },
+                            {
+                              "color": "#4F5BD5",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "bty90",
+                      "x": 5,
+                      "y": 5,
+                      "name": "s3avatar",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "graybill_",
+                        "link": "https://unsplash.com/@graybill_",
+                        "author": "Ryan Graybill"
+                      },
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1503525523076-ca4aa2e47535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MDI3NjN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "width": 58,
+                      "height": 58
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ZDKe0",
+                  "name": "s3label",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 72,
+                  "content": "unc_basketball",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nfsu8",
+              "name": "cscaa1922",
+              "width": 72,
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "08NL8",
+                  "name": "s4ring",
+                  "width": 68,
+                  "height": 68,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "yC1lr",
+                      "x": 0,
+                      "y": 0,
+                      "name": "s4gradient",
+                      "width": 68,
+                      "height": 68,
+                      "stroke": {
+                        "thickness": 3,
+                        "fill": {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 225,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#FEDA75",
+                              "position": 0
+                            },
+                            {
+                              "color": "#FA7E1E",
+                              "position": 0.25
+                            },
+                            {
+                              "color": "#D62976",
+                              "position": 0.5
+                            },
+                            {
+                              "color": "#962FBF",
+                              "position": 0.75
+                            },
+                            {
+                              "color": "#4F5BD5",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "nqQa2",
+                      "x": 5,
+                      "y": 5,
+                      "name": "s4avatar",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "nopizzanocry",
+                        "link": "https://unsplash.com/@nopizzanocry",
+                        "author": "john labelette"
+                      },
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1625844393947-27ed2fa505af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MDI3NjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "width": 58,
+                      "height": 58
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "yp0Vf",
+                  "name": "s4label",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 72,
+                  "content": "cscaa1922",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nWrVj",
+              "name": "partial_story",
+              "width": 72,
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tEYHa",
+                  "name": "s5ring",
+                  "width": 68,
+                  "height": 68,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "pV8Ef",
+                      "x": 0,
+                      "y": 0,
+                      "name": "s5gradient",
+                      "width": 68,
+                      "height": 68,
+                      "stroke": {
+                        "thickness": 3,
+                        "fill": {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 225,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#FEDA75",
+                              "position": 0
+                            },
+                            {
+                              "color": "#FA7E1E",
+                              "position": 0.25
+                            },
+                            {
+                              "color": "#D62976",
+                              "position": 0.5
+                            },
+                            {
+                              "color": "#962FBF",
+                              "position": 0.75
+                            },
+                            {
+                              "color": "#4F5BD5",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "o7Ys7",
+                      "x": 5,
+                      "y": 5,
+                      "name": "s5avatar",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "acfb5071",
+                        "link": "https://unsplash.com/@acfb5071",
+                        "author": "Keith Johnston"
+                      },
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1491067852826-a60f365ff611?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MDI3NjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "width": 58,
+                      "height": 58
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "iC5gZ",
+                  "name": "s5label",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 72,
+                  "content": "tarheels_fb",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "0baoM",
+          "name": "divider",
+          "fill": "#262626",
+          "width": "fill_container",
+          "height": 0.5
+        },
+        {
+          "type": "frame",
+          "id": "GJlWa",
+          "name": "Post Header",
+          "width": "fill_container",
+          "height": 52,
+          "gap": 8,
+          "padding": [
+            0,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "BojFH",
+              "name": "postAvatar",
+              "metadata": {
+                "type": "unsplash",
+                "username": "akidar",
+                "link": "https://unsplash.com/@akidar",
+                "author": "Anugrah Rahadhika"
+              },
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1710301431080-bcba94ec8bb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MDI3ODJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "width": 32,
+              "height": 32
+            },
+            {
+              "type": "frame",
+              "id": "hlqY7",
+              "name": "postInfo",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 1,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RZRfV",
+                  "name": "userRow",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BFw8u",
+                      "name": "userName",
+                      "fill": "#FFFFFF",
+                      "content": "uncfootball",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "p2Iqi",
+                      "name": "verifiedIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "verified",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "fill": "#0095F6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CBpwL",
+                      "name": "andOthers",
+                      "fill": "#FFFFFF",
+                      "content": "and 2 others",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m5Fgj",
+                  "name": "audioRow",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "x5Jmj",
+                      "name": "musicIcon",
+                      "width": 10,
+                      "height": 10,
+                      "iconFontName": "music",
+                      "iconFontFamily": "lucide",
+                      "fill": "#A8A8A8"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4E5xi",
+                      "name": "audioText",
+                      "fill": "#A8A8A8",
+                      "content": "accnetwork · Original audio",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LnzAH",
+              "name": "Follow Button",
+              "fill": "#262626",
+              "cornerRadius": 8,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#363636"
+              },
+              "padding": [
+                6,
+                14
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yrDVD",
+                  "name": "followText",
+                  "fill": "#FFFFFF",
+                  "content": "Follow",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "hD4xt",
+              "name": "moreIcon",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "ellipsis",
+              "iconFontFamily": "lucide",
+              "fill": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VVFh2",
+          "name": "Post Image",
+          "metadata": {
+            "type": "unsplash",
+            "username": "anders_kj1",
+            "link": "https://unsplash.com/@anders_kj1",
+            "author": "Anders Krøgh Jørgensen"
+          },
+          "width": "fill_container",
+          "height": 390,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1566349765424-5aef5503e44a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA1MDI3ODJ8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "vU3As",
+          "name": "Engagement Bar",
+          "width": "fill_container",
+          "height": 46,
+          "padding": [
+            10,
+            12
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "t7ZCA",
+              "name": "leftActions",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "d9Ff5",
+                  "name": "likeIcon",
+                  "width": 24,
+                  "height": 24,
+                  "iconFontName": "heart",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "ucLUw",
+                  "name": "commentIcon",
+                  "width": 24,
+                  "height": 24,
+                  "iconFontName": "message-circle",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "kUuov",
+                  "name": "shareIcon",
+                  "width": 24,
+                  "height": 24,
+                  "iconFontName": "send",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "JXf9g",
+              "name": "bookmarkIcon",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "bookmark",
+              "iconFontFamily": "lucide",
+              "fill": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "algbF",
+          "name": "Post Meta",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "padding": [
+            0,
+            12
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "EreBG",
+              "name": "likesText",
+              "fill": "#FFFFFF",
+              "content": "1,247 likes",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "SIoSx",
+              "name": "captionRow",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jsmeD",
+                  "name": "captionUser",
+                  "fill": "#FFFFFF",
+                  "content": "uncfootball",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "tCj2z",
+                  "name": "captionText",
+                  "fill": "#FFFFFF",
+                  "content": "The UNC crowd goes wild 🔥",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "igdMn",
+              "name": "commentsLink",
+              "fill": "#A8A8A8",
+              "content": "View all 84 comments",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "6fxIZ",
+              "name": "timeText2",
+              "fill": "#666666",
+              "content": "2 hours ago",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ELKNG",
+          "name": "spacer",
+          "width": "fill_container",
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "aGrVb",
+          "name": "Tab Bar",
+          "width": "fill_container",
+          "height": 50,
+          "fill": "#000000",
+          "stroke": {
+            "thickness": {
+              "top": 0.5
+            },
+            "fill": "#262626"
+          },
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "GiQF5",
+              "name": "homeIcon",
+              "width": 26,
+              "height": 26,
+              "iconFontName": "home",
+              "iconFontFamily": "Material Symbols Rounded",
+              "fill": "#FFFFFF"
+            },
+            {
+              "type": "icon_font",
+              "id": "GFb11",
+              "name": "reelsIcon",
+              "width": 26,
+              "height": 26,
+              "iconFontName": "movie",
+              "iconFontFamily": "Material Symbols Rounded",
+              "fill": "#A8A8A8"
+            },
+            {
+              "type": "frame",
+              "id": "zXG70",
+              "name": "createContainer",
+              "width": 26,
+              "height": 26,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "lOLm0",
+                  "x": 0,
+                  "y": 0,
+                  "name": "createIcon",
+                  "width": 26,
+                  "height": 26,
+                  "iconFontName": "compass",
+                  "iconFontFamily": "lucide",
+                  "fill": "#A8A8A8"
+                },
+                {
+                  "type": "ellipse",
+                  "id": "pbNg2",
+                  "x": 18,
+                  "y": 0,
+                  "name": "createDot",
+                  "fill": "#FF3040",
+                  "width": 5,
+                  "height": 5
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "CtRke",
+              "name": "searchIcon",
+              "width": 26,
+              "height": 26,
+              "iconFontName": "search",
+              "iconFontFamily": "lucide",
+              "fill": "#A8A8A8"
+            },
+            {
+              "type": "icon_font",
+              "id": "OhJF5",
+              "name": "profileIcon",
+              "width": 26,
+              "height": 26,
+              "iconFontName": "user",
+              "iconFontFamily": "lucide",
+              "fill": "#A8A8A8"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XJFd8",
+          "name": "Home Indicator",
+          "width": "fill_container",
+          "height": 34,
+          "padding": [
+            0,
+            0,
+            8,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "end",
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 3,
+              "id": "5fQIZ",
+              "name": "indicator",
+              "fill": "#FFFFFF",
+              "width": 134,
+              "height": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

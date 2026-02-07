@@ -1,0 +1,890 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "0jfmV",
+      "x": 0,
+      "y": 0,
+      "name": "Landing Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "#09090B",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "R1rHt",
+          "name": "Nav Bar",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#09090B",
+          "padding": [
+            0,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "bvXvE",
+              "name": "Nav Left",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8AVnc",
+                  "name": "Logo",
+                  "fill": "#FFFFFF",
+                  "content": "ACME",
+                  "fontFamily": "Outfit",
+                  "fontSize": 24,
+                  "fontWeight": "800",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "frame",
+                  "id": "BAhns",
+                  "name": "Nav Links",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "W99fd",
+                      "name": "link1",
+                      "fill": "#A1A1AA",
+                      "content": "Features",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M0hVu",
+                      "name": "link2",
+                      "fill": "#A1A1AA",
+                      "content": "Pricing",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qVHNc",
+                      "name": "link3",
+                      "fill": "#A1A1AA",
+                      "content": "About",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hvK8B",
+                      "name": "link4",
+                      "fill": "#A1A1AA",
+                      "content": "Blog",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Pw8kn",
+              "name": "Nav Right",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2Qk4H",
+                  "name": "signIn",
+                  "fill": "#A1A1AA",
+                  "content": "Sign in",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "mgStu",
+                  "name": "CTA Button",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sKaII",
+                      "name": "ctaText",
+                      "fill": "#09090B",
+                      "content": "Get Started",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QhKld",
+          "name": "Nav Divider",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "#18181B"
+        },
+        {
+          "type": "frame",
+          "id": "31T7k",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            120,
+            80,
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "8hdHM",
+              "name": "Badge",
+              "cornerRadius": 100,
+              "gap": 8,
+              "padding": [
+                8,
+                16
+              ],
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "g8du4",
+                  "name": "Dot",
+                  "fill": "#22C55E",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "3aPr0",
+                  "name": "badgeText",
+                  "fill": "#A1A1AA",
+                  "content": "Now in Public Beta",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "IhaXQ",
+              "name": "Headline",
+              "fill": "#FFFFFF",
+              "content": "Build products\nthat matter.",
+              "lineHeight": 1,
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 80,
+              "fontWeight": "900",
+              "letterSpacing": -3
+            },
+            {
+              "type": "text",
+              "id": "xicP1",
+              "name": "Subheadline",
+              "fill": "#71717A",
+              "content": "The modern platform for teams who ship fast.\nFrom idea to production in minutes, not months.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "b8eSa",
+              "name": "CTA Buttons",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6jKil",
+                  "name": "Primary CTA",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yGcoW",
+                      "name": "primaryText",
+                      "fill": "#09090B",
+                      "content": "Start Building Free",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qVtWO",
+                      "name": "primaryArrow",
+                      "fill": "#09090B",
+                      "content": "→",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NB5gR",
+                  "name": "Secondary CTA",
+                  "cornerRadius": 12,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AOtd6",
+                      "name": "secondText",
+                      "fill": "#A1A1AA",
+                      "content": "Watch Demo",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NrKbh",
+              "name": "Trust Row",
+              "gap": 48,
+              "padding": [
+                40,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UIhZZ",
+                  "name": "trustLabel",
+                  "fill": "#3F3F46",
+                  "content": "TRUSTED BY",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "bBvbA",
+                  "name": "trustSep",
+                  "width": 1,
+                  "height": 20,
+                  "fill": "#27272A"
+                },
+                {
+                  "type": "text",
+                  "id": "yXi9X",
+                  "name": "t1",
+                  "fill": "#52525B",
+                  "content": "Vercel",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "1cr9U",
+                  "name": "t2",
+                  "fill": "#52525B",
+                  "content": "Stripe",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Tl0MM",
+                  "name": "t3",
+                  "fill": "#52525B",
+                  "content": "Linear",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "HIwKw",
+                  "name": "t4",
+                  "fill": "#52525B",
+                  "content": "Figma",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "y1qAg",
+                  "name": "t5",
+                  "fill": "#52525B",
+                  "content": "Notion",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CMTzH",
+          "name": "Hero Visual",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            80,
+            80,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "8Y2Nc",
+              "name": "Product Mockup",
+              "width": 1100,
+              "height": 650,
+              "fill": "#18181B",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Ln6mq",
+                  "name": "Title Bar",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#18181B",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "p0XXA",
+                      "name": "dot1",
+                      "opacity": 0.8,
+                      "fill": "#EF4444",
+                      "width": 12,
+                      "height": 12
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "nlThx",
+                      "name": "dot2",
+                      "opacity": 0.8,
+                      "fill": "#F59E0B",
+                      "width": 12,
+                      "height": 12
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "F0dCh",
+                      "name": "dot3",
+                      "opacity": 0.8,
+                      "fill": "#22C55E",
+                      "width": 12,
+                      "height": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kg14W",
+                  "name": "Screen",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1770501584854.png",
+                    "mode": "fill"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JAtg6",
+          "name": "Features Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "f8HX6",
+              "name": "Features Header",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HzxM1",
+                  "name": "featLabel",
+                  "fill": "#A1A1AA",
+                  "content": "FEATURES",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "n88hI",
+                  "name": "featTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Everything you need\nto ship faster.",
+                  "lineHeight": 1.1,
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "mD7Yx",
+                  "name": "featDesc",
+                  "fill": "#71717A",
+                  "content": "Powerful tools designed for modern teams.\nSimplify your workflow from day one.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HsspB",
+              "name": "Features Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VjciY",
+                  "name": "Feature Card 1",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lkJPy",
+                      "name": "Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#27272A",
+                      "cornerRadius": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1pYca",
+                          "name": "iconTxt1",
+                          "content": "⚡",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "zKVQ6",
+                      "name": "cardTitle1",
+                      "fill": "#FFFFFF",
+                      "content": "Lightning Fast",
+                      "fontFamily": "Outfit",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XdpSg",
+                      "name": "cardDesc1",
+                      "fill": "#71717A",
+                      "content": "Sub-second builds and instant hot reload. Your changes go live the moment you save.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rA4np",
+                  "name": "Feature Card 2",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gO384",
+                      "name": "Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#27272A",
+                      "cornerRadius": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "z8puN",
+                          "name": "iconTxt2",
+                          "content": "🔒",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "2JtWq",
+                      "name": "cardTitle2",
+                      "fill": "#FFFFFF",
+                      "content": "Secure by Default",
+                      "fontFamily": "Outfit",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BYBm2",
+                      "name": "cardDesc2",
+                      "fill": "#71717A",
+                      "content": "Enterprise-grade security baked in. SOC2, GDPR, and HIPAA compliant out of the box.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oSplf",
+                  "name": "Feature Card 3",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sELcs",
+                      "name": "Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#27272A",
+                      "cornerRadius": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R5a9U",
+                          "name": "iconTxt3",
+                          "content": "🤝",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "CeQNa",
+                      "name": "cardTitle3",
+                      "fill": "#FFFFFF",
+                      "content": "Team Collaboration",
+                      "fontFamily": "Outfit",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "egQQ7",
+                      "name": "cardDesc3",
+                      "fill": "#71717A",
+                      "content": "Real-time multiplayer editing. See your team's changes as they happen, no conflicts.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5g6Me",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "fill": "#0F0F11",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "CcWeU",
+              "name": "ctaTitle",
+              "fill": "#FFFFFF",
+              "content": "Ready to ship\nsomething great?",
+              "lineHeight": 1.1,
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 56,
+              "fontWeight": "800",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "zfySA",
+              "name": "ctaDesc",
+              "fill": "#71717A",
+              "content": "Join thousands of teams building the future.\nStart free — no credit card required.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "GdBGV",
+              "name": "CTA Buttons",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7hSh4",
+                  "name": "Primary CTA",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5gjxd",
+                      "name": "ctaPText",
+                      "fill": "#09090B",
+                      "content": "Get Started Free",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iLveS",
+                      "name": "ctaPArrow",
+                      "fill": "#09090B",
+                      "content": "→",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tFIgt",
+                  "name": "Secondary CTA",
+                  "cornerRadius": 12,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6AYWt",
+                      "name": "ctaSText",
+                      "fill": "#A1A1AA",
+                      "content": "Talk to Sales",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Boh2D",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#09090B",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "xZVl3",
+              "name": "Footer Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#18181B"
+            },
+            {
+              "type": "frame",
+              "id": "ZRlh5",
+              "name": "Footer Content",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ANdsO",
+                  "name": "footLeft",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LgIEa",
+                      "name": "footLogo",
+                      "fill": "#FFFFFF",
+                      "content": "ACME",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MO9ft",
+                      "name": "footCopy",
+                      "fill": "#52525B",
+                      "content": "© 2025 Acme Inc. All rights reserved.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HhtLh",
+                  "name": "footRight",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "84BZX",
+                      "name": "fl1",
+                      "fill": "#71717A",
+                      "content": "Privacy",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "P0Q9A",
+                      "name": "fl2",
+                      "fill": "#71717A",
+                      "content": "Terms",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UhNkE",
+                      "name": "fl3",
+                      "fill": "#71717A",
+                      "content": "Twitter",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k0TuU",
+                      "name": "fl4",
+                      "fill": "#71717A",
+                      "content": "GitHub",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
